@@ -1,10 +1,5 @@
-
-
-
 .container {
   padding: 0 2rem;
-  /*width: 900;  /*画面の幅いっぱいにコンテンツを広げる */
-  /*height: 600; /* 画面の高さいっぱいにコンテンツを広げる */
 }
 
 .main {
@@ -75,7 +70,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  /* max-width: 800px; */
+  max-width: 800px;
 }
 
 .card {
@@ -113,7 +108,7 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;

@@ -1,10 +1,13 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    /*width: 900; /* 画面の幅いっぱいにコンテンツを広げる */
+    /*height: 600; /* 画面の高さ*/
+    /*overflow: hidden; /* 画面スクロールを無効にする */
 }
+
+
 
 a {
   color: inherit;
