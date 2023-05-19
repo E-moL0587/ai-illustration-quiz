@@ -18,7 +18,7 @@ export function Scene() {
       setScene('result')
     }
     return(
-    <div>
+    <div className={styles.container}>
       <div className="container">
         <div className="box">
             <div id="scene" className="scene" style={{ width: 900, height: 600 }}>

@@ -24,7 +24,7 @@ export function SP_main  (props) {
     
     <div className={styles.container}>
         <div className={styles.image_flex}>
-        <Image src="/image/dog.png" alt="Vercel Logo" width={500} height={500} />
+        <Image src="/image/dog.png" alt="Vercel Logo" width={400} height={400} />
         </div>
       <div className={styles.chatInputButton}>
 

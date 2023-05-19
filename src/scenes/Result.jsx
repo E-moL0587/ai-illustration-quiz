@@ -3,7 +3,7 @@ import styles from './Result.module.css'
 
 export function Result  (props) {
   return (
-    <>
+    <div className={styles.container}>
     <h1>リザルト</h1>
       <p>
         あなたのスコアは{props.score}
@@ -14,6 +14,6 @@ export function Result  (props) {
       </button>
 
       
-    </>
+    </div>
   );
 };

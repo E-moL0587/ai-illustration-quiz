@@ -1,10 +1,16 @@
-
-
-
 .container {
   padding: 0 2rem;
-  /*width: 900;  /*画面の幅いっぱいにコンテンツを広げる */
-  /*height: 600; /* 画面の高さいっぱいにコンテンツを広げる */
+  width: 900;  
+  height: 600; 
+  text-align: center;
+  
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
 }
 
 .main {
