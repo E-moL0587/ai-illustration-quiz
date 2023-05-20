@@ -3,6 +3,10 @@ import styles from './Footer.module.css'
 
 export  function Footer() {
   return (
+    <div className={styles.videoContainer}>
+    <video autoPlay loop muted className={styles.backgroundVideo}>
+      <source src="/image/back.mp4" type="video/mp4" />
+    </video>
     
 
       <footer className={styles.footer}>
@@ -17,6 +21,6 @@ export  function Footer() {
           </span>
         </a>
       </footer>
-    
+    </div>
   )
 }

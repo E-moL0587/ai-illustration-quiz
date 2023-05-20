@@ -7,7 +7,7 @@ import Image from "next/image"
 export function SP_main  (props) {
   
   const [gameOvered, setGameOvered] = useState(false)
-  const [score, setScore] = useState(100)
+  const [score, setScore] = useState('いぬ')
 
   const handleon_GameOvered = (score) => {
     {props.onGameOvered(score)}
@@ -24,7 +24,7 @@ export function SP_main  (props) {
     
     <div className={styles.container}>
         <div className={styles.image_flex}>
-        <Image src="/image/dog.png" alt="Vercel Logo" width={500} height={500} />
+        <Image src="/image/dog.png" alt="Vercel Logo" width={280} height={280} />
         </div>
       <div className={styles.chatInputButton}>
 

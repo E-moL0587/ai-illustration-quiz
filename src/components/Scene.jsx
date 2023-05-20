@@ -18,10 +18,10 @@ export function Scene() {
       setScene('result')
     }
     return(
-    <div>
+    <div className={styles.container}>
       <div className="container">
         <div className="box">
-            <div id="scene" className="scene" style={{ width: 900, height: 600 }}>
+            <div id="scene" className="scene" style={{ width: 725, height: 350 }}>
                 {scene === 'title' && <Title onClickStart1={() => setScene('mode_select')} onClickStart2={() => setScene('result')}/>}
                 {scene === 'mode_select' && <Mode_select onClickStart={() => setScene('singleplay_main')}/>} 
                 {scene === 'singleplay_main' && <SP_main onGameOvered={handleGameOvered}/>} 
@@ -30,8 +30,7 @@ export function Scene() {
             </div>
         </div>
       </div>
-      
-    </div>
+      </div>
     )
     
 }

@@ -3,7 +3,7 @@ import styles from './multplay_setting.module.css'
 
 export function MP_setting  (props) {
   return (
-    <>
+    <div className={styles.container}>
     <h1>リザルト</h1>
       <p>
         あなたのスコアは{props.score}
@@ -18,6 +18,6 @@ export function MP_setting  (props) {
       </button>
 
       
-    </>
+    </div>
   );
 };
